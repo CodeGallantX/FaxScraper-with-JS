@@ -9,7 +9,7 @@ const faxPatterns = /(fax|f\.?|fx|fax number|fax:|f:|fx:|📠)[\s:]*\(?\d{3}\)?[
 const contactKeywords = [
     'contact', 'contact-us', 'contactus', 'support', 'customer-support', 
     'help', 'help-center', 'contact-support', 'get-in-touch', 
-    'connect', 'contact-info'
+    'connect', 'contact-info', 'location','locations'
 ];
 
 async function scrapeFaxNumbers() {
