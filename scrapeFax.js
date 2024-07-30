@@ -1,72 +1,6 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
-
-// List of URLs to check
-const urls = [
-    'https://www.clarkedistributing.com',
-    'https://www.eptingdist.com',
-    'https://www.climaticcorp.com',
-    'https://www.coastalhvacsupply.com',
-    'https://www.solarsupplyusa.com',
-    'https://www.galarson.com',
-    'https://www.dennissupply.com',
-    'https://www.edssupply.com',
-    'https://www.mboroappliancerepair.com',
-    'https://www.ecmdi.com',
-    'https://www.weathertech.net',
-    'https://www.chcs-ut.com',
-    'https://www.mtncom.net',
-    'https://midatlantic.carrierenterprise.com',
-    'https://www.lyonconklin.com',
-    'https://www.updinc.com',
-    'https://www.charlottesvillenoland.com',
-    'https://www.wittichen-supply.com',
-    'https://www.solarsupply.us',
-    'https://www.airstarsupply.com',
-    'https://www.allapplianceparts.net',
-    'https://www.arcosupply.com',
-    'https://www.carrierenterprise.com',
-    'https://www.centralacsupplyfl.com',
-    'https://eemotors.hypersites.com',
-    'https://www.gulfatlanticequipment.com',
-    'https://www.hvacsupplyinc.com',
-    'https://www.lennoxpros.com',
-    'https://www.nflhvac.com',
-    'https://www.oldachusa.com',
-    'https://www.protectowers.com',
-    'https://www.silversheetsupplies.com',
-    'https://www.tampabaytrane.com',
-    'https://www.tranesupply.com',
-    'https://www.acwarehousehawaii.com',
-    'https://www.coscohawaii.com',
-    'https://www.leblancandassociates.com',
-    'https://company.ingersollrand.com',
-    'https://www.ac-parts.net',
-    'https://www.bradyservices.com',
-    'https://www.ctcsupply.com',
-    'https://www.ihriesupply.com',
-    'https://www.insightusa.com',
-    'https://www.climaticcomfortproducts.com',
-    'https://www.creggercompany.com',
-    'https://www.kru-kel.com',
-    'https://www.mccallsinc.com',
-    'https://www.coastalsupplycotn.com',
-    'https://www.acessupply.com',
-    'https://www.insco.com',
-    'https://www.ecoer.com',
-    // 'https://www.seshvac.com',
-    // 'https://www.virginiaair.com',
-    // 'https://www.york.com',
-    // 'https://www.fletchersupply.com',
-    // 'https://www.arnold-brown.com',FaxScraper with JS
-    // 'https://www.conklinmetal.com',
-    // 'https://www.hughessupplydothan.com',
-    // 'https://www.fjevans.net',
-    // 'https://www.airtechal.com',
-    // 'https://www.lanico-inc.com',
-    // 'https://www.behler-young.com',
-    // 'https://www.benoist.com'
-];
+const urls = require('./urls');
 
 // Regular expression to find fax numbers in various formats
 const faxPatterns = /(fax|f\.?|fx|fax number|fax:|f:|fx:|📠)[\s:]*\(?\d{3}\)?[\s.-]*\d{3}[\s.-]*\d{4}/gi;
@@ -79,7 +13,7 @@ const contactKeywords = [
 ];
 
 async function scrapeFaxNumbers() {
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
     let allFaxData = [];
     let openingErrors = [];
