@@ -58,7 +58,7 @@ const urls = [
     // 'https://www.virginiaair.com',
     // 'https://www.york.com',
     // 'https://www.fletchersupply.com',
-    // 'https://www.arnold-brown.com',
+    // 'https://www.arnold-brown.com',FaxScraper with JS
     // 'https://www.conklinmetal.com',
     // 'https://www.hughessupplydothan.com',
     // 'https://www.fjevans.net',
