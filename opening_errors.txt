@@ -1,10 +1,24 @@
-URL: https://www.powerfloautomation.com/, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.powerfloautomation.com/
-URL: https://www.triadautomation.com/, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.triadautomation.com/
-URL: https://www.noverhed.com/, Error: Execution context was destroyed, most likely because of a navigation.
-URL: https://www.mendomill.com/, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.mendomill.com/
-URL: https://www.misumiusa.com/, Error: net::ERR_CONNECTION_CLOSED at https://www.misumiusa.com/
-URL: https://www.airoyal.biz/, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.airoyal.biz/
-URL: https://www.pneumaticca.com/, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.pneumaticca.com/
-URL: https://www.isicdi.com/, Error: net::ERR_NAME_NOT_RESOLVED at https://www.isicdi.com/
-URL: https://www.pneumaticsupply.com/, Error: net::ERR_CONNECTION_REFUSED at https://www.pneumaticsupply.com/
-URL: https://impact-automation.com/redirect/, Error: Execution context was destroyed, most likely because of a navigation.
+URL: https://www.solarsupplyusa.com, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.solarsupplyusa.com
+URL: https://www.dennissupply.com, Error: net::ERR_CONNECTION_REFUSED at https://www.dennissupply.com
+URL: https://www.mboroappliancerepair.com, Error: net::ERR_NAME_NOT_RESOLVED at https://www.mboroappliancerepair.com
+URL: https://midatlantic.carrierenterprise.com, Error: net::ERR_CONNECTION_TIMED_OUT at https://midatlantic.carrierenterprise.com
+URL: https://www.lyonconklin.com, Error: net::ERR_CERT_DATE_INVALID at https://www.lyonconklin.com
+URL: https://www.updinc.com, Error: net::ERR_CONNECTION_CLOSED at https://www.updinc.com
+URL: https://www.charlottesvillenoland.com, Error: net::ERR_CONNECTION_REFUSED at https://www.charlottesvillenoland.com
+URL: https://www.wittichen-supply.com, Error: Execution context was destroyed, most likely because of a navigation.
+URL: https://www.solarsupply.us, Error: Navigation timeout of 30000 ms exceeded
+URL: https://www.airstarsupply.com, Error: Navigation timeout of 30000 ms exceeded
+URL: https://www.arcosupply.com, Error: net::ERR_CONNECTION_CLOSED at https://www.arcosupply.com
+URL: https://www.centralacsupplyfl.com, Error: net::ERR_NAME_NOT_RESOLVED at https://www.centralacsupplyfl.com
+URL: https://www.gulfatlanticequipment.com, Error: net::ERR_ABORTED at https://www.gulfatlanticequipment.com
+URL: https://www.hvacsupplyinc.com, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.hvacsupplyinc.com
+URL: https://www.lennoxpros.com, Error: net::ERR_NAME_NOT_RESOLVED at https://www.lennoxpros.com
+URL: https://www.oldachusa.com, Error: Navigation timeout of 30000 ms exceeded
+URL: https://www.silversheetsupplies.com, Error: net::ERR_NAME_NOT_RESOLVED at https://www.silversheetsupplies.com
+URL: https://www.climaticcomfortproducts.com, Error: net::ERR_CERT_COMMON_NAME_INVALID at https://www.climaticcomfortproducts.com
+URL: https://www.kru-kel.com, Error: Navigation timeout of 30000 ms exceeded
+URL: https://www.coastalsupplycotn.com, Error: Navigation timeout of 30000 ms exceeded
+URL: https://www.ecoer.com, Error: Navigation timeout of 30000 ms exceeded
+URL: https://www.conklinmetal.com, Error: Navigation timeout of 30000 ms exceeded
+URL: https://www.hughessupplydothan.com, Error: net::ERR_CONNECTION_TIMED_OUT at https://www.hughessupplydothan.com
+URL: https://www.lanico-inc.com, Error: net::ERR_CERT_COMMON_NAME_INVALID at https://www.lanico-inc.com

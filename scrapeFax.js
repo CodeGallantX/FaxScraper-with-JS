@@ -54,18 +54,18 @@ const urls = [
     'https://www.acessupply.com',
     'https://www.insco.com',
     'https://www.ecoer.com',
-    'https://www.seshvac.com',
-    'https://www.virginiaair.com',
-    'https://www.york.com',
-    'https://www.fletchersupply.com',
-    'https://www.arnold-brown.com',
-    'https://www.conklinmetal.com',
-    'https://www.hughessupplydothan.com',
-    'https://www.fjevans.net',
-    'https://www.airtechal.com',
-    'https://www.lanico-inc.com',
-    'https://www.behler-young.com',
-    'https://www.benoist.com'
+    // 'https://www.seshvac.com',
+    // 'https://www.virginiaair.com',
+    // 'https://www.york.com',
+    // 'https://www.fletchersupply.com',
+    // 'https://www.arnold-brown.com',
+    // 'https://www.conklinmetal.com',
+    // 'https://www.hughessupplydothan.com',
+    // 'https://www.fjevans.net',
+    // 'https://www.airtechal.com',
+    // 'https://www.lanico-inc.com',
+    // 'https://www.behler-young.com',
+    // 'https://www.benoist.com'
 ];
 
 // Regular expression to find fax numbers in various formats
